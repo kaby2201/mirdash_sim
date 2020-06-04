@@ -3,6 +3,8 @@ bin
 cmake-build-*
 obj
 venv
+mir_mir100_rest_api_283.pdf
+*.db
 *.pyc
 *.swp
 
