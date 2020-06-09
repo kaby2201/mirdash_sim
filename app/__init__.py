@@ -6,7 +6,7 @@ from flask import Blueprint
 from .main.controller.user_controller import api as user_ns
 from .main.controller.auth_controller import api as auth_ns
 
-blueprint = Blueprint('api', __name__)
+blueprint = Blueprint('api', __name__, url_prefix='/api/v2.0.0')
 
 api = Api(blueprint,
           title='MiRDash sim api',
